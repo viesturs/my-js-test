@@ -34,7 +34,7 @@ define(
             _create: function() {
                 var self          = this,
                     cacheAutoOpen = this.options.cacheAutoOpen;
-
+alert(123);
                 // sets value to Cache auto open
                 this.options.popup.autoOpen = cacheAutoOpen;
                 if (!$.mage.cookies.get('store') || this.options.isCheckout) {
